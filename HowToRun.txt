@@ -1,0 +1,31 @@
+How to Run the ERP System
+
+1.  Install Dependencies Ensure all required software (Java, Node.js,
+    MySQL, Python, etc.) is installed.
+
+2.  Configure the Database
+
+    -   Import the SQL file into your database.
+    -   Update database username, password, and URL in the configuration
+        file.
+
+3.  Start the Backend Use the appropriate command:
+
+    -   mvn spring-boot:run
+    -   python app.py
+    -   npm start
+
+4.  Start the Frontend
+
+    -   npm install
+    -   npm start
+
+5.  Access the Application Open your browser and go to:
+    http://localhost:3000 or your configured port.
+
+6.  Login and Use the System Enter your credentials and begin using all
+    ERP modules.
+
+Additional Features: - Password change option - Notification system -
+Transcript export - Backup & restore of ERP database - Account lockout
+after 3 failed login attempts
